@@ -1,0 +1,5 @@
+Here is a BDD test framework to test key functionality in Amazon web application
+
+Group Id:groupId>org.clickatell</groupId>
+ArtifactId:AmazonShoppingTask</artifactId>
+Dependencies: Selenium,Cucumber JVM Java 7.15, Cucumber Junit4 7.15
