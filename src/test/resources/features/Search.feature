@@ -2,9 +2,8 @@ Feature: Search and Filter Product functionality
 
   Background:
     #Given user  navigate to Amazon web home page
-    When user enters the full name of a product gaming laptop
+    When user enters the full name of a product
     And user clicks on search button
-
 
   @smoke
   Scenario:  Search Product by Name
