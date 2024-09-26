@@ -46,12 +46,10 @@ public class CommonMethods extends PageInitializer {
             driver.quit();
         }
     }
-
     public void sendText(String text, WebElement element){
         element.clear();
         element.sendKeys(text);
     }
-
     public void selectFromDropDown(WebElement dropDown, String visibleText){
         Select sel =new Select(dropDown);
         sel.selectByVisibleText(visibleText);
@@ -78,11 +76,9 @@ public class CommonMethods extends PageInitializer {
         waitForElementToBeClickAble(element);
         element.click();
     }
-
     public JavascriptExecutor getJSExecutor(){
         JavascriptExecutor js = (JavascriptExecutor) driver;
         return js;
-
 
     }
 }

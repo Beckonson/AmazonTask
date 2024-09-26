@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import utils.CommonMethods;
 
 public class SearchPage extends CommonMethods {
-    @FindBy(id="twotabsearchtextbox")
+    @FindBy(xpath = "//input[@id='twotabsearchtextbox']")
     public WebElement productSearch;
 
     @FindBy(xpath = "//*[@id='nav-search-submit-button")
