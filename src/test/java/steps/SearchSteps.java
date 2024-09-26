@@ -28,7 +28,7 @@ public class SearchSteps extends CommonMethods {
     @When("user enters the full name of a product")
     public void user_enters_the_full_name_of_a_product() {
         //SearchPage search =new SearchPage();
-        WebElement productSearch = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
+        //WebElement productSearch = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
         //sendText("gaming laptop", search.productSearch);
         sendText(ConfigReader.read("product"), search.productSearch);
         //sendText(product,search.productSearch);
